@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Mart | E-Commerce Capstone</title>
+    <link rel="stylesheet" href="./capstone c .css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-flex">
+            <img src="./logo.png" alt="Fashion Mart Logo" id="logo" width="150" height="50">
+            <br>
+            <a href="#logo" class="logo">Fashion Mart</a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                
+                <a href="#" aria-label="Search">🔍</a>
+                <a href="#" aria-label="Cart">🛒 <span class="badge">0</span></a>
+                <a href="#" class="btn-login">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Winter Sale is Here!</h1>
+            <p>Up to 50% off on selected styles. Refresh your wardrobe with the latest trends.</p>
+            <a href="#shop" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <main class="container main-layout">
+        
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Category</h4>
+                <ul>
+                    <li><label><input type="checkbox"> Men</label></li>
+                    <li><label><input type="checkbox"> Women</label></li>
+                    <li><label><input type="checkbox"> Accessories</label></li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h4>Price</h4>
+                <ul>
+                    <li><label><input type="checkbox"> Under 200 </label></li>
+                    <li><label><input type="checkbox"> 200 - 500 </label></li>
+                    <li><label><input type="checkbox"> 500+</label></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section id="shop" class="product-section">
+            <h2 class="section-title">New Arrivals</h2>
+            
+            <div class="product-grid">
+                <article class="card">
+                    <img src="./denim.png" alt="Casual Denim Jacket">
+                    <div class="card-body">
+                        <span>Women</span>
+                        <h3>Classic Denim Jacket</h3>
+                        <p class="price">599.99</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./shirt.png" alt="White T-Shirt">
+                    <div class="card-body">
+                        <span>Men</span>
+                        <h3> White T-Shirt</h3>
+                        <p class="price">199.99</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./shoes.png" alt="Running Shoes">
+                    <div class="card-body">
+                        <span>Shoes</span>
+                        <h3>Running Shoes</h3>
+                        <p class="price">899.99</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="./bag.png" alt="Leather Bag">
+                    <div class="card-body">
+                        <span>Accessories</span>
+                        <h3>Leather Bag</h3>
+                        <p class="price">800.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                 <article class="card">
+                    <img src="./coat.png" alt="Winter Coat">
+                    <div class="card-body">
+                        <span>Women</span>
+                        <h3>Winter Wool Coat</h3>
+                        <p class="price">1500.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                 <article class="card">
+                    <img src="./wrist.png" alt="Watch">
+                    <div class="card-body">
+                        <span>Accessories</span>
+                        <h3>Analog Watch</h3>
+                        <p class="price">1200.00</p>
+                        <button class="add-cart">Add to Cart</button>
+                    </div>
+                </article>
+
+                <section id="reviews" class="review-section"></section>
+                <h2 class="section-title">REVIEWS</h2>
+                 <div class="review-grid"></div>
+                
+                <article class ="reviews">
+                    <div class="card-body">
+                        <span>Reviews</span>
+                        <h3>XYZ</h3>
+                        <img src="./person 1.png" alt="star rating"  >
+                        <p>"Absolutely love the quality"</p>
+                        </div>
+                        </article>
+
+                 <article class="reviews">
+                    <div class="card-body">
+                        <span>Reviews</span>
+                        <h3>ABC</h3>
+                        <img src="./image 2.png" alt="star rating">
+                        <P>"Great selection and amazing deals"</P>
+
+                    </div>
+                 </article>   
+                 <article class ="reviews">
+                    <div class="card-body">
+                        <span>Reviews</span>
+                        <h3>QWE</h3>
+                        <img src="./person2.png" alt="star rating">
+                        <p>"Good Service"</p>
+
+
+                    </div>
+
+                 </article>    
+                
+            </div>
+        </section>
+    </main>
+
+    <section id="contact" class="newsletter">
+        <div class="container">
+            <h2>Stay Connected With Fashion Mart</h2>
+            <p>Sign up for exclusive offers and new arrivals.</p>
+            <form class="signup-form">
+                <label for="email" class="sr-only">Email Address</label>
+                <input type="email" id="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>Fashion Mart</h3>
+                <p>Your daily dose of styling.
+                    <br>
+                From casual wear to formal attire, we have it all.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#shipping">Shipping</a></li>
+                    <li><a href="#returns">Returns</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <img src="./image1.png" alt="twitter" width="30" height="30">
+                    <br>
+                    <img src="./image copy.png" alt="instagram" width="30" height="30">
+                    <br>
+                    <img src="./f.png" alt="facebook" width="30" height="30">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Fashion Mart. All rights reserved.
+        </div>
+        <a href="#" class="back-top">↑ Back to Top</a>
+    </footer>
+   
+
+
+</body>
+</html>
